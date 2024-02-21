@@ -23,10 +23,10 @@ function Form() {
     reset();
   };
   return (
-    <div className="flex md:justify-center lg:justify-center items-center justify-normal">
+    <div className="flex md:justify-center lg:justify-center items-center justify-normal responsiveness">
       <div className="relative flex flex-col items-center m-10 md:m-0">
-        <div className="bg-[#F88601] w-[260px] md:w-[430px] h-[500px] md:h-[520px] rounded-lg mb-4 md:mb-0"></div>
-        <div className="bg-[#DDDDDD] w-[300px] md:w-[440px] h-[500px] md:h-[530px] rounded-lg p-10 absolute top-7 right-7">
+        <div className="bg-[#F88601] w-[240px] md:w-[430px] h-[500px] md:h-[520px] rounded-lg mb-4 md:mb-0"></div>
+        <div className="bg-[#DDDDDD] w-[280px] md:w-[440px] h-[500px] md:h-[530px] rounded-lg p-10 absolute md:top-7 md:right-7 top-5 right-5">
           <h1 className="text-center font-semibold text-4xl mb-10">Login</h1>
           <div className="">
             <form onSubmit={handleSubmit(onSubmit)} noValidate>
