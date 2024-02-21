@@ -4,7 +4,9 @@ import logo from "../public/placeholder_logo.svg";
 function App() {
   return (
     <>
-      <img src={logo} alt="" />
+      <div>
+        <img src={logo} alt="" className="mb-5" />
+      </div>
       <Form />
     </>
   );
