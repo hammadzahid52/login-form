@@ -1,10 +1,10 @@
 import "./App.css";
 import Form from "./Form";
-// import Form from "./newform";
+import logo from "../public/placeholder_logo.svg";
 function App() {
   return (
     <>
-      <h1 className="font-bold text-3xl text-start">Logo</h1>
+      <img src={logo} alt="" />
       <Form />
     </>
   );
